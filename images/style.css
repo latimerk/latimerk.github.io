@@ -8,7 +8,7 @@ Edited by Kenneth Latimer for www.kennethlatimer.com
 body {
  background-color: #e7e7e7;
  color: #FFF;
- padding: 0; margin: 0; font: 0.7em Arial, sans-serif; line-height: 1.5em;
+ padding: 0; margin: 0; font: 1em Arial, sans-serif; line-height: 1.5em;
 }
 
 a { color: #46574D; background: inherit; }
@@ -62,45 +62,45 @@ input.submit { width: 28px; height: 20px; font-weight: bold; border: none; backg
 	color: #FFF;
 	width: .content.width;
 	height: 78px;
-	margin: 0;
-	padding: 0;
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
 }
 
 .header .title {
 	float: left;
 	padding: 12px 0 0 120px;
 	color: #FFF;
-	font: bold 1.8em Arial, sans-serif;
+	font: bold 2.0em Arial, sans-serif;
 }
 
 .header .slogan {
 	float: left;
 	clear: both;
-	padding: 2px 0 0 120px;
+	padding: 2px 0px 0 120px;
 	color: #FFF;
-	font: bold 1.0em Arial, sans-serif;
+	font: bold 1.4em Arial, sans-serif;
 }
 	.header .slogan a { color: #FFF; background: inherit; text-decoration:none; }
 	.header .slogan a:hover { color: #AAA; background: inherit; text-decoration: underline}
 
 #nav {
 	background: #000 url(menu.jpg) no-repeat center bottom;
-	background-size: 100% 30px;
+	background-size: 100% 33px;
 	background-color: #000;
 	width: .content.width;
-	height: 28px;
+	height: 33px;
 	margin: 0;
 	padding: 0;
 }
 
-#nav ul { margin:0; list-style:none; padding: 0px 0 0 100px; }
-#nav a, #nav strong, #nav span { float:left; display:block; color:#fff; padding: 5px 10px 5px 10px; background: #9e9e9e; text-decoration:none; font-weight: bold; }
+#nav ul { margin:0; list-style:none; padding: 2px 0 0 100px; }
+#nav a, #nav strong, #nav span { float:left; display:block; color:#fff; padding: 0px 10px 0px 10px; background: #9e9e9e; text-decoration:none; font: bold 1.6em Arial, sans-serif; }
 #nav a { float:none; }
 #nav li { float:left; color: #FFF; background: #9e9e9e; margin:0; padding:0 0 0 0px; }
 #nav #current { float:left; background: #aeaeae; color: #FFF; }
-#nav #current a { float:left; background: #aeaeae; padding:5px 10px 5px 10px; color:#FFF; }
+#nav #current a { float:left; background: #aeaeae; padding:0px 10px 0px 10px; color:#FFF; }
 #nav a:hover { float:left; color:#FFF; background: #aeaeae; }  
-#nav .padding { padding: 5px 0 0 10px; font-weight: bold; }
+#nav .padding { padding: 0px 0 0 10px; font-weight: bold; }
 
 
 .main_content {
